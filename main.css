@@ -1,0 +1,21 @@
+body {
+    background-color: #F8F8F8;
+}
+
+#main {
+    display: inline-block;
+    background-color: yellowgreen;
+    width: 800px;   
+    margin-top: 150px;
+    margin-left: 400px;
+}
+
+#left {
+    display: inline-block;
+    background-color: tomato;
+}
+
+#right {
+    display: inline-block;
+    background-color: violet;
+}
