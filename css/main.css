@@ -1,0 +1,72 @@
+body {
+    background-color: #F8F8F8;
+}
+
+.container {
+    display: inline-block;
+    width: 800px;
+    margin-top: 20px;
+    margin-left: calc((100% - 800px) / 2);
+}
+
+    header {
+        display: inline-block;
+        width: 100%;
+    }
+        .logo {
+            display: inline-block;
+            float: left;
+            height: 60px;
+        }
+        nav {
+            display: inline-block;
+            float: right;
+            margin-top: 20px;
+            font-size: 20px;
+        }
+            a {
+                display: inline-block;
+                float: left;
+                margin-left: 40px;
+                font-size: 20px;
+                line-height: 20px;
+                text-decoration: none;
+                color: #C1C1C1;
+            }
+                .btn {           
+                   text-transform: uppercase;
+                   font-size: 15px;
+                   border-radius: 20px;
+                   margin-top: -2px;
+                   padding-left: 20px;
+                   padding-right: 20px;
+                   border: 2px solid #c1c1c1;
+                }
+    section {
+        display: inline-block;
+        width: 100%;
+        margin-top: 80px;
+    }
+        div {
+            display: inline-block;
+            float: left;
+            width: 42%;
+            margin-top: 40px;
+            margin-left: 4%;
+            margin-right: 4%;
+        }
+            h1 {
+                font-size: 100px;
+                color: #c1c1c1;
+            }
+            p {
+                color: #c1c1c1;
+                font-size: 30px;
+            }
+        .girl {
+            display: inline-block;
+            float: right;
+            width: 42%;
+            margin-left: 4%;
+            margin-right: 4%;
+        }        
